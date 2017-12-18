@@ -10,3 +10,12 @@
     python3 manage.py migrate
     python3 manage.py run
 ```
+
+
+# My Tests
+* If I use django 2.0 to run the code, the result will be:
+![img](./img/success.png)
+* If I use django 1.11 to run the code, the result will be:
+![img](./img/fail.png)
+
+* I'm glad to hear any suggestions from you. My email is [ramwin@qq.com](mailto:ramwin@qq.com)
