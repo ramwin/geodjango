@@ -13,20 +13,6 @@ class SouthTexasCity(models.Model):
     point = models.PointField(srid=32140)
 
 
-class MyPoint(models.Model):
-    point = models.PointField(srid=32140)
-
-    def __str__(self):
-        return self.point.geojson
-
-
-class MyPoint2(models.Model):
-    point = models.PointField(dim=3)
-
-    def __str__(self):
-        return self.point.geojson
-
-
 class MyPoint3(models.Model):
     point = models.PointField(srid=4326)
 
