@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.mysql',
         'NAME': 'test',
         'USER': 'root',
-        'PASSWORD': 'wangxiangno',
+        'PASSWORD': 'ramwin',
     }
 }
 
