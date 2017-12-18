@@ -15,4 +15,4 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         point = Point(0,0)
         MyPoint3.objects.create(point=point)
-        print(MyPoint3.objects.filter(point__distance_lte=(point, 7000)))
+        print(MyPoint3.objects.filter(point__distance_lte=(point, 1)))
